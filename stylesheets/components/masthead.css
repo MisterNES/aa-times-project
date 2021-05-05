@@ -1,12 +1,15 @@
 .masthead {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
 .masthead__menu-and-search{
     grid-column: 1/ span 1;
     grid-row: 1/ span 1;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+
 }
 
 .masthead__actions{

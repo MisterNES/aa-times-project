@@ -11,3 +11,20 @@ body {
     font-family: "al, helvetica, sans-serif";
     line-height: 1em;
 }
+
+button{
+    background-color: lightblue;
+    border-radius: 3px;
+    font-weight: bold;
+    color: white;
+    font-family: "arial, helvetica, sans-serif";
+    font-size: 11px;
+    padding: 7px 9px;
+    margin: 0 4px;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+}
+
+button:hover{
+    background-color: blue;
+}
