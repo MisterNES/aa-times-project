@@ -1,0 +1,13 @@
+header,
+footer,
+main {
+    max-width: 1400px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: auto;
+}
+
+body {
+    font-family: "al, helvetica, sans-serif";
+    line-height: 1em;
+}
