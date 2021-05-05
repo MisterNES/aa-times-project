@@ -1,5 +1,35 @@
 .masthead {
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr; */
     grid-template-columns: 1fr 1fr 1fr;
+}
+
+.masthead__menu-and-search{
+    grid-column-start: 1/span 1;
+    grid-row-start: 1/span 1;
+}
+
+.masthead__actions{
+    grid-column-start: 3/span 1;
+    grid-row-start: 1/span 1;
+}
+
+.masthead__technologies{
+    grid-column-start: 2/span 1;
+    grid-row-start: 2/span 3;
+}
+
+.masthead__date{
+    grid-column-start: 1/span 1;
+    grid-row-start: 3/span 1;
+}
+
+.masthead__logo{
+    grid-column-start: 2/span 1;
+    grid-row-start: 3/span 1;
+}
+
+.masthead__paper{
+    grid-column-start: 3/span 1;
+    grid-row-start: 3/span 1;
 }
