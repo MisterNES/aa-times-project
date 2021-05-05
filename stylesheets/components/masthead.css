@@ -15,11 +15,16 @@
 .masthead__actions{
     grid-column: 3/ span 1;
     grid-row: 1/ span 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 5px 0;
 }
 
 .masthead__technologies{
     grid-column: 2/ span 1;
     grid-row: 2/ span 1;
+    text-align: center;
 }
 
 .masthead__date{
@@ -47,4 +52,14 @@
 
 .masthead__buttons:hover {
     background-color: #f7f7f5;
+}
+
+.masthead__technology {
+    margin: 0 4px;
+}
+
+.masthead__technology-list {
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #6f6f6f;
 }
